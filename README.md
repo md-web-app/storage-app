@@ -46,3 +46,6 @@ https://afreshcup.com/home/2017/07/23/activestorage-samples
 https://medium.com/@wrburgess/a-comprehensive-list-of-activestorage-tutorials-for-rails-5-2-8ea7d4ea267e
 
 https://guides.rubyonrails.org/active_storage_overview.html
+
+## Commands for Deploying ActiveStorage Rails app to Heroku
+heroku config:set RAILS_MASTER_KEY=`cat config/master.key` --app storage-appp
